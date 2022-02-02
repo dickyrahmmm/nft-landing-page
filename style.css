@@ -11,7 +11,7 @@
   --bg-color: #000000;
   --font-color: #ffffff;
   --btn-bg-color: #ffffff;
-  --accent-color: #ec8a09;
+  --accent-color: #888484;
   --header-shadow: #000 0px 0px 5px;
 }
 
@@ -20,6 +20,8 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+
 
 body {
   background-color: var(--bg-color);
@@ -85,7 +87,7 @@ header .container {
 .hero-btn {
   border-radius: 4px;
   font-size: 1.2rem;
-  padding: 1.5rem 3rem;
+  padding: 15px;
 }
 
 /* COUNTDOWN SECTION */
