@@ -32,7 +32,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
   const updateButton = () => {
     if (!MetaMaskOnboarding.isMetaMaskInstalled()) {
-      onboardButton.innerText = 'INSTALL METAMASK!';
+      onboardButton.innerText = 'INSTALL';
       onboardButton.onclick = () => {
         onboardButton.innerText = 'Connecting...';
         onboardButton.disabled = true;
